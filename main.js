@@ -18,7 +18,9 @@ window.onload = () => {
 }
 
 window.onclick = () => {
-    if(!stop) window.open("index.html", '_blank', 'location=yes,height=500,width=500,scrollbars=yes,status=yes')
+    if(!stop) {
+        window.open("index.html", '_blank', 'location=yes,height=500,width=500,scrollbars=yes,status=yes')
+    }
 }
 
 function color() {
